@@ -20,8 +20,6 @@ export const useCounterStore = defineStore("counter", () => {
     count.value--;
     if ($logger) $logger.log(`Counter decremented to ${count.value}`);
   }
-
-  // Method to set logger (will be called from component)
   function setLogger(logger: any) {
     $logger = logger;
   }

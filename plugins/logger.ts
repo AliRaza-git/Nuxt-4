@@ -1,5 +1,4 @@
-// plugins/logger.ts
-//@ts-ignore
+
 export default defineNuxtPlugin((nuxtApp) => {
   const logger = {
     log: (message: string) => console.log(`[LOG]: ${message}`),

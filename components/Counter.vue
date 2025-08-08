@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { useCounterStore } from '../stores/counter'
-// Just import and use - no logger setup needed!
+
 const counter = useCounterStore();
 </script>
 
